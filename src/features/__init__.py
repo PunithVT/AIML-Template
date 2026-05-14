@@ -18,12 +18,18 @@ class CandidateProfile:
 
 def extract_features(text: str) -> CandidateProfile:
     """Run all feature extractors and return a structured profile."""
+    experience = extract_experience(text)
+    total_years = 0.0
+    if experience:
+        total_years = max(entry.get("years", 0.0) for entry in experience)
+
     return CandidateProfile(
         raw_text=text,
         contact=extract_contact(text),
         skills=extract_skills(text),
-        experience=extract_experience(text),
+        experience=experience,
         education=extract_education(text),
+        total_experience_years=total_years,
     )
 
 

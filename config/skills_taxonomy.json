@@ -1,24 +1,28 @@
 {
   "programming_languages": [
-    "python", "java", "javascript", "typescript", "c++", "c#", "go",
-    "rust", "ruby", "php", "swift", "kotlin", "scala", "r", "matlab"
+    "python", "java", "c", "c++", "c#", "javascript", "typescript", "html", "css",
+    "go", "rust", "ruby", "php", "swift", "kotlin", "scala", "r", "matlab"
   ],
   "web_frameworks": [
     "react", "angular", "vue", "next.js", "nuxt", "svelte",
-    "django", "flask", "fastapi", "express", "spring boot", "rails"
+    "django", "flask", "fastapi", "express", "spring boot", "rails", "node.js"
   ],
   "data_ml": [
-    "pandas", "numpy", "scikit-learn", "tensorflow", "pytorch", "keras",
-    "xgboost", "lightgbm", "spacy", "nltk", "hugging face", "transformers",
+    "machine learning", "deep learning", "nlp", "natural language processing",
+    "data analysis", "pandas", "numpy", "scikit-learn", "tensorflow", "pytorch", 
+    "keras", "xgboost", "lightgbm", "spacy", "nltk", "hugging face", "transformers",
     "langchain", "llama-index", "opencv"
   ],
   "databases": [
     "postgresql", "mysql", "mongodb", "redis", "elasticsearch",
-    "sqlite", "cassandra", "dynamodb", "snowflake", "bigquery"
+    "sqlite", "cassandra", "dynamodb", "snowflake", "bigquery", "sql"
   ],
   "cloud_devops": [
     "aws", "azure", "gcp", "docker", "kubernetes", "terraform",
-    "jenkins", "github actions", "gitlab ci", "ansible", "prometheus"
+    "jenkins", "github actions", "gitlab ci", "ansible", "prometheus", "git"
+  ],
+  "analytics_bi": [
+    "power bi", "tableau", "excel", "looker", "qlik", "cognos"
   ],
   "soft_skills": [
     "leadership", "communication", "teamwork", "problem solving",

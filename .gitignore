@@ -1,50 +1,29 @@
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-.venv/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
 venv/
-env/
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-htmlcov/
-dist/
-build/
-
-# Env / secrets
 .env
-.env.local
-*.pem
-*.key
 
-# Data — don't commit candidate PII
-data/resumes/*
-data/processed/*
-!data/resumes/.gitkeep
-!data/processed/.gitkeep
+# Uploads
+uploads/
 
 # Models
-models/
-*.pkl
-*.bin
-*.pt
-*.onnx
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
+models/*.pkl
 
 # IDE
 .vscode/
 .idea/
-*.swp
-.DS_Store
 
 # Logs
-logs/
 *.log
+
+# Streamlit
+.streamlit/
+
+# OS Files
+.DS_Store
+Thumbs.db

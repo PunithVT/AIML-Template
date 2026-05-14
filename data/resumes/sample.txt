@@ -1,0 +1,26 @@
+John Doe
+Software Engineer
+
+Experience:
+- Senior Python Developer at Tech Corp (2020-Present)
+  - Built REST APIs using FastAPI
+  - Worked with NLP and ML models
+  - Led a team of 3 developers
+
+- Python Developer at Startup Inc (2018-2020)
+  - Developed data processing pipelines
+  - Implemented machine learning algorithms
+
+Education:
+- Master of Computer Science, University of Tech, 2018
+- Bachelor of Engineering, State University, 2016
+
+Skills:
+- Python, JavaScript, SQL
+- Machine Learning, NLP, Data Science
+- FastAPI, Django, React
+- AWS, Docker, Git
+
+Contact:
+Email: john.doe@email.com
+Phone: +1-234-567-8900
